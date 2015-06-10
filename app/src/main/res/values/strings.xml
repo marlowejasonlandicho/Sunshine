@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sunshine</string>
+
+    <string name="hello_world">Hello World!</string>
+    <string name="date_today">Today, June 10</string>
+    <string name="temp_high">37°</string>
+    <string name="temp_low">27°</string>
+    <string name="weather_today">Cloudy</string>
+    <string name="action_settings">Settings</string>
+    <string name="list_item_forecast_text_view">Today - Sunny - 88 / 63</string>
+</resources>
