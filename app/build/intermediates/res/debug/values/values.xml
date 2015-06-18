@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/Users/marlowe.landicho/AndroidStudioProjects/Sunshine/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="pref_temp_unit_entries">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="pref_temp_unit_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
     <!-- From: file:/Users/marlowe.landicho/AndroidStudioProjects/Sunshine/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
@@ -192,13 +202,29 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <!-- From: file:/Users/marlowe.landicho/AndroidStudioProjects/Sunshine/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="action_map">Map Location</string>
+    <string name="action_refresh">Refresh</string>
     <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
     <string name="app_name">Sunshine</string>
     <string name="date_today">Today, June 10</string>
     <string name="hello_world">Hello World!</string>
     <string name="list_item_forecast_text_view">Today - Sunny - 88 / 63</string>
+    <string name="pref_location_default" translatable="false">Manila</string>
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_label">Location</string>
+    <string name="pref_map_location_summ">Get your current location</string>
+    <string name="pref_map_location_sync">Use Preferred Location</string>
+    <string name="pref_temp_unit_default">metric</string>
+    <string name="pref_temp_unit_dialog_title">Select Unit</string>
+    <string name="pref_temp_unit_key" translatable="false">temp_unit</string>
+    <string name="pref_temp_unit_label">Select Unit</string>
+    <string name="pref_units_imperial">imperial</string>
+    <string name="pref_units_metric">metric</string>
     <string name="temp_high">37°</string>
     <string name="temp_low">27°</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
     <string name="weather_today">Cloudy</string>
     <!-- From: file:/Users/marlowe.landicho/AndroidStudioProjects/Sunshine/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/res/values/values.xml -->
     <eat-comment/>

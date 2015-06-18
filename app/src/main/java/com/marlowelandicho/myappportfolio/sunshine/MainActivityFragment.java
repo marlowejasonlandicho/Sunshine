@@ -42,6 +42,11 @@ public class MainActivityFragment extends Fragment {
         ListView listView = (ListView) rootView.findViewById(R.id.list_view_forecast);
         listView.setAdapter(arrayAdapter);
 
+
+
         return rootView;
     }
+
+
+
 }
