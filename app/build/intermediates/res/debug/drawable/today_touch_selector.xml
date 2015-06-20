@@ -7,4 +7,4 @@
     <item android:drawable="@color/sunshine_light_blue" android:state_selected="true" />
 
     <item android:drawable="@color/sunshine_blue" />
-</selector>
+</selector><!-- From: file:/Users/marlowe.landicho/AndroidStudioProjects/Sunshine/app/src/main/res/drawable/today_touch_selector.xml -->

@@ -10,10 +10,10 @@ import com.marlowelandicho.myappportfolio.sunshine.data.WeatherContract;
  * Created by marlowe.landicho on 20/6/15.
  */
 public class TestFetchWeatherTask extends AndroidTestCase {
-    static final String ADD_LOCATION_SETTING = "Sunnydale, CA";
-    static final String ADD_LOCATION_CITY = "Sunnydale";
-    static final double ADD_LOCATION_LAT = 34.425833;
-    static final double ADD_LOCATION_LON = -119.714167;
+    static final String ADD_LOCATION_SETTING = "Manila, Philippines";
+    static final String ADD_LOCATION_CITY = "Manila";
+    static final double ADD_LOCATION_LAT = 14.6042;
+    static final double ADD_LOCATION_LON = 120.982201;
 
     /*
         Students: uncomment testAddLocation after you have written the AddLocation function.
@@ -27,6 +27,7 @@ public class TestFetchWeatherTask extends AndroidTestCase {
                 WeatherContract.LocationEntry.COLUMN_LOCATION_SETTING + " = ?",
                 new String[]{ADD_LOCATION_SETTING});
 
+//        FetchWeatherTask fwt = new FetchWeatherTask(getContext(), null);
         FetchWeatherTask fwt = new FetchWeatherTask(getContext());
         long locationId = fwt.addLocation(ADD_LOCATION_SETTING, ADD_LOCATION_CITY,
                 ADD_LOCATION_LAT, ADD_LOCATION_LON);

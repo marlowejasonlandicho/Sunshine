@@ -64,4 +64,4 @@
             android:textAppearance="?android:textAppearanceLarge"
             android:textColor="@color/white" />
     </LinearLayout>
-</LinearLayout>
+</LinearLayout><!-- From: file:/Users/marlowe.landicho/AndroidStudioProjects/Sunshine/app/src/main/res/layout/list_item_forecast_today.xml -->

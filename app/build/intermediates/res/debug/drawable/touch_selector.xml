@@ -10,4 +10,4 @@
 
     <!-- Default, "just hangin' out" state. -->
     <item android:drawable="@android:color/transparent" />
-</selector>
+</selector><!-- From: file:/Users/marlowe.landicho/AndroidStudioProjects/Sunshine/app/src/main/res/drawable/touch_selector.xml -->

@@ -6,10 +6,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".ForecastFragment">
+    tools:context="com.marlowelandicho.myappportfolio.sunshine.ForecastFragment">
 
     <ListView
-        android:id="@+id/list_view_forecast"
+        android:id="@+id/list_view_forecast2"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
